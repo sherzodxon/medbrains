@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../scss/main.scss"
-    ],
-    "names": [],
-    "file": "main.css"
-}
+{"version":3,"sources":["../scss/_fonts.scss","main.css","../scss/_generals.scss","../scss/blocks/_container.scss"],"names":[],"mappings":"AAAA,4BAAA;AACA;EACI,sBAAA;EACA,kBAAA;EACA,gBAAA;EACA,oJAAA,EAEuE,gDAAA;ACD3E;ADGE,wBAAA;AACA;EACE,sBAAA;EACA,kBAAA;EACA,gBAAA;EACA,4IAAA,EAEmE,gDAAA;ACHvE;ADKE,wBAAA;AACA;EACE,sBAAA;EACA,kBAAA;EACA,gBAAA;EACA,4IAAA,EAEmE,gDAAA;ACLvE;ACpBA;;;EAGE,sBAAA;ADsBF;;ACnBA;EACE,SAAA;EACA,UAAA;EACA,kCAAA;EACA,eAAA;EACA,gBAAA;EACA,wBAAA;EACA,aAAA;EACF,WAAA;EACE,aAAA;EACA,sBAAA;ADsBF;;ACnBA;EACE,eAAA;EACA,YAAA;ADsBF;;ACnBA;EACE,qBAAA;ADsBF;;ACnBA;EACE,mBAAA;EACA,6BAAA;UAAA,qBAAA;EACA,WAAA;EACA,gBAAA;EACA,kBAAA;EACA,mBAAA;EACA,UAAA;ADsBF;;AEzDA;EACI,WAAA;EACA,iBAAA;EACA,cAAA;EACA,eAAA;AF4DJ","file":"main.css"}

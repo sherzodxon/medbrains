@@ -7,19 +7,14 @@
 body {
   margin: 0; 
   padding: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   line-height: 1.5;
-  background-color: #fff;
+  background: rgba(0, 0, 0, 1);
   height: 100vh;
-
+color: #fff;
   display: flex;
   flex-direction: column;
-}
-
-main {
-  background-color: #ccc;
-  flex-grow: 1;
 }
 
 img {
