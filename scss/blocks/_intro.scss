@@ -50,38 +50,3 @@
     justify-content: space-between;
     align-items: center;
 }
-
-
-
-
-.intro__connect-creators {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 38px;
-    text-align: center;
-    color: #707070;
-    margin-top: 21px;
-}
-
-.intro__connect-created {
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 38px;
-    color: #FFFFFF;
-    position: relative;
-    
-
-    &::after {
-        position: absolute;
-        width: 23px;
-        height: 23px;
-        background: #0FC65C;
-        mix-blend-mode: normal;
-        border-radius: 50%;
-        content: '';
-        left: -50px;
-        top: 6px;
-        box-shadow: 0px 0px 3px 6px rgba(15, 199, 92, 0.5);
-    }
-}

@@ -100,6 +100,37 @@ h1, h2, h3, p {
   margin: 0;
 }
 
+.creator {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  text-align: center;
+  color: #707070;
+  margin-top: 21px;
+}
+
+.created {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  color: #FFFFFF;
+  position: relative;
+  padding-left: 23px;
+}
+.created::after {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  background: #0FC65C;
+  mix-blend-mode: normal;
+  border-radius: 50%;
+  content: "";
+  left: -27px;
+  top: 6px;
+  box-shadow: 0px 0px 3px 6px rgba(15, 199, 92, 0.5);
+}
+
 .container {
   max-width: 1640px;
   min-width: 1200px;
@@ -210,36 +241,6 @@ h1, h2, h3, p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.intro__connect-creators {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 38px;
-  text-align: center;
-  color: #707070;
-  margin-top: 21px;
-}
-
-.intro__connect-created {
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 38px;
-  color: #FFFFFF;
-  position: relative;
-}
-.intro__connect-created::after {
-  position: absolute;
-  width: 23px;
-  height: 23px;
-  background: #0FC65C;
-  mix-blend-mode: normal;
-  border-radius: 50%;
-  content: "";
-  left: -50px;
-  top: 6px;
-  box-shadow: 0px 0px 3px 6px rgba(15, 199, 92, 0.5);
 }
 
 .creators {
@@ -559,5 +560,39 @@ h1, h2, h3, p {
   padding-top: 489px;
   padding-bottom: 476px;
   width: 1236px;
+  margin: 0 auto;
+}
+
+.footer__title {
+  padding-top: 174px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 150px;
+  text-align: center;
+  position: relative;
+}
+.footer__title::after {
+  position: absolute;
+  width: 164px;
+  height: 152px;
+  content: "";
+  background: url(../../img/logo.svg) no-repeat center center;
+  top: 0;
+  left: calc(50% - 82px);
+}
+
+.footer__text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 64px;
+  margin-bottom: 43px;
+}
+
+.footer__link {
+  text-align: center;
+  display: block;
+  padding: 28px 112px;
+  width: 472px;
   margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
