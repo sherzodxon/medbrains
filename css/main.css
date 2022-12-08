@@ -86,6 +86,7 @@ h1, h2, h3, p {
   line-height: 30px;
   padding: 23px 74px;
   border-radius: 8px;
+  background: rgb(14, 14, 14);
 }
 
 .step {
@@ -428,7 +429,9 @@ h1, h2, h3, p {
 }
 
 .share__container {
-  max-width: 1731px;
+  max-width: 1751px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .share__title {
@@ -449,7 +452,7 @@ h1, h2, h3, p {
 }
 
 .share__list {
-  width: 1731px;
+  width: 1731 px;
   margin-top: 176px;
   display: flex;
   justify-content: space-between;
@@ -507,4 +510,20 @@ h1, h2, h3, p {
   margin: 0 auto;
   width: 283px;
   padding: 21px 81px;
+}
+
+.send__container {
+  width: 1738px;
+  margin-top: 189px;
+}
+
+.send__title {
+  font-weight: 500;
+  font-size: 75px;
+  line-height: 112px;
+  color: #FFFFFF;
+}
+
+.send__info-title {
+  width: 698px;
 }/*# sourceMappingURL=main.css.map */
