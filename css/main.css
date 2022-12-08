@@ -597,6 +597,7 @@ h1, h2, h3, p {
 }
 
 .footer__footer {
+  width: 1640px;
   margin-top: 184px;
   display: flex;
   justify-content: space-between;
