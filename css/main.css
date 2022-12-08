@@ -148,30 +148,6 @@ h1, h2, h3, p {
   justify-content: space-between;
 }
 
-.header__nav {
-  width: 398px;
-}
-
-.header__nav-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-.header__nav-link {
-  color: rgb(112, 112, 112);
-  font-size: 21px;
-  font-weight: 500;
-  line-height: 32px;
-  letter-spacing: 0px;
-  text-align: left;
-}
-.header__nav-link:hover {
-  color: rgb(60, 130, 244);
-}
-
 .header__form-button {
   background: transparent;
   border: none;
@@ -192,6 +168,30 @@ h1, h2, h3, p {
 .sign-up {
   background: rgb(48, 110, 247);
   border-radius: 5px;
+}
+
+.nav {
+  width: 398px;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: rgb(112, 112, 112);
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.nav__link:hover {
+  color: rgb(60, 130, 244);
 }
 
 .intro {
@@ -595,4 +595,36 @@ h1, h2, h3, p {
   padding: 28px 112px;
   width: 472px;
   margin: 0 auto;
+}
+
+.footer__footer {
+  margin-top: 184px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 96px;
+}
+
+.footer__email {
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 40px;
+  color: #707070;
+}
+
+.footer__connect-creators {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 57px;
+  text-align: center;
+  color: #707070;
+}
+
+.footer__connect-created {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 57px;
+}
+.footer__connect-created::after {
+  top: 15px;
 }/*# sourceMappingURL=main.css.map */

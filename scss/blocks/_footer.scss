@@ -25,10 +25,40 @@
     margin-bottom: 43px;
 }
 
-.footer__link{
+.footer__link {
     text-align: center;
-  display: block;
+    display: block;
     padding: 28px 112px;
     width: 472px;
     margin: 0 auto;
-}   
+}
+
+.footer__footer {
+    margin-top: 184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 96px;
+}
+
+.footer__email {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+    color: #707070;
+}
+.footer__connect-creators{
+font-weight: 400;
+font-size: 38px;
+line-height: 57px;
+text-align: center;
+color: #707070;
+}
+.footer__connect-created{
+    font-weight: 700;
+font-size: 38px;
+line-height: 57px;
+&::after{
+    top: 15px;
+}
+}
