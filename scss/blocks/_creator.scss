@@ -1,0 +1,75 @@
+.creators {
+    margin-top: 188px;
+}
+
+.creators__title {
+    margin: 0;
+    margin-bottom: 64px;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 112px;
+    letter-spacing: 0px;
+}
+.creators__smiles{
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    position: relative;
+   &::after{
+    position: absolute;
+    width: 95%;
+    height:95%;
+    content: '';
+    left: 0;
+    bottom: 0
+   }
+}
+
+.first-smile{
+    &::after{
+        background: url(../../img/smile-1.svg) no-repeat center center
+    }
+}
+.second-smile{
+    &::after{
+        background: url(../../img/smile-2.svg) no-repeat center center
+    }
+}
+.three-smile{
+    margin-left: 45px;
+    &::after{
+        background: url(../../img/smile-3.svg) no-repeat center center
+    }
+}
+.creators__list{
+    @include reset-list;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.creators__item-title{  
+margin: 0;
+margin-left: 8px;      
+font-size: 35px;
+font-weight: 600;
+line-height: 52px;
+letter-spacing: 0px;
+
+}
+.creators__item-text{
+margin: 0;
+margin-top: 10px;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+color: #707070;
+}
+.creators__title-wrapper{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 344px;
+    margin: 0 auto;
+}
