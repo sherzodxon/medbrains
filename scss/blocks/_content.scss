@@ -1,5 +1,6 @@
 .content {
-    margin-top: 205px;
+    margin-top: 185px;
+    height: 715px;
 }
 
 .content__container {
@@ -15,8 +16,11 @@
     line-height: 45px;
     margin: 0;
     margin-bottom: 80px;
+    margin-top: 29px;
 }
-
+.content__info-wrapper{
+    padding-right: 8px;
+}
 .content__info-title {
     width: 548px;
     font-weight: 600;
@@ -67,3 +71,14 @@
 .content__link{
     padding: 18px 21px;
 }
+.content__link-demo{
+    padding: 17px 36px;
+}
+.content__img{
+    width: 880px;
+    height: 715px;
+    margin-left: auto;
+    padding-left: 10px;
+   
+}
+

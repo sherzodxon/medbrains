@@ -46,7 +46,7 @@ h1,h2,h3,p{
   letter-spacing: 0px;
   padding: 23px 74px;
   border: 1px solid transparent;
-  border-radius: 8px;
+  border-radius: 15px;
 }
 
 .demo {
@@ -58,7 +58,7 @@ h1,h2,h3,p{
   font-size: 20px;
   line-height: 30px;
   padding: 23px 74px;
-  border-radius: 8px;
+  border-radius: 15px;
   background: rgba(14, 14, 14, 1);
 
 }
@@ -93,8 +93,8 @@ h1,h2,h3,p{
 
     &::after {
         position: absolute;
-        width: 23px;
-        height: 23px;
+        width: 18px;
+        height: 18px;
         background: #0FC65C;
         mix-blend-mode: normal;
         border-radius: 50%;

@@ -37,17 +37,19 @@
     }
 }
 .three-smile{
-    margin-left: 45px;
+    margin-left: 55px;
     &::after{
         background: url(../../img/smile-3.svg) no-repeat center center
     }
 }
 .creators__list{
+    width: 1483px;
     @include reset-list;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    margin: 0 auto;
 }
 .creators__item-title{  
 margin: 0;

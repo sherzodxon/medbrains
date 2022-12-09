@@ -1,13 +1,16 @@
 @import url(../_variables.scss);
 
 .intro {
-    margin-top: 142px;
+    margin-top: 120px;
 }
 
 .intro__container {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+.intro__text-wrapper{
+    margin-right: 8px;
 }
 
 .intro__white-text {
@@ -23,14 +26,15 @@
     text-align: center;
     font-size: 112px;
     font-weight: 600;
-    line-height: 100px;
+    line-height: 87px;
     color: #FE6783;
 
 }
 
 .intro__connect-wrapper {
-    margin-top: 136px;
+    margin-top: 160px;
     text-align: center;
+    
 }
 
 .intro__connect-text {
@@ -49,4 +53,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.intro__connect-link-demo{
+    padding: 22px 89px;
+}
+.intro__connect-created{
+    position: relative;
+    padding-left: 40px;
+    padding-right: 5px;
+    &::after{
+        left: 5px;
+    }
 }

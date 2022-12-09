@@ -1,5 +1,5 @@
 .footer__title {
-    padding-top: 174px;
+    padding-top: 170px;
     font-weight: 700;
     font-size: 100px;
     line-height: 150px;
@@ -22,13 +22,16 @@
     font-weight: 400;
     font-size: 43px;
     line-height: 64px;
-    margin-bottom: 43px;
+    margin-bottom: 15px;
 }
 
 .footer__link {
-    text-align: center;
+font-size: 30px;
+font-weight: 600;
+line-height: 45px;
+letter-spacing: 0px;
     display: block;
-    padding: 28px 112px;
+    padding: 27px 111px;
     width: 472px;
     margin: 0 auto;
 }
@@ -45,7 +48,7 @@
 .footer__email {
     font-weight: 400;
     font-size: 27px;
-    line-height: 40px;
+    line-height: 30px;
     color: #707070;
 }
 .footer__connect-creators{
@@ -54,6 +57,8 @@ font-size: 38px;
 line-height: 57px;
 text-align: center;
 color: #707070;
+padding-left: 30px;
+margin-top: 26px;
 }
 .footer__connect-created{
     font-weight: 700;
@@ -62,4 +67,15 @@ line-height: 57px;
 &::after{
     top: 15px;
 }
+}
+.footer__nav{
+    width: 476px;
+}
+.footer__nav-link{
+font-size: 28px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0px;
+text-align: left;
+
 }

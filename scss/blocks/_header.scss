@@ -7,6 +7,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+.header__form{
+    padding-bottom: 6px;
+    margin-left: 4px
 }
 
 .header__form-button {
@@ -23,5 +28,8 @@
 }
 .sign-up{
     background: $button-blue;
-    border-radius: 5px;
+    border-radius: 9px;
+}
+.header__logo-link{
+    margin-left: 3px;
 }
